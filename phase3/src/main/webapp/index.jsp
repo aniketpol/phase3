@@ -47,9 +47,9 @@ form {
 <div id="centerDiv">
  <span id="titleBar">Phase-III PhoneBuzz with Delay</span>
 <form action="/phase3/index" method="POST">
-Please enter valid phone no with country code: <input type="text" name="phone_number" style="width: 100px;" maxLength="12">
+Please enter valid phone no with country code: <input type="text" name="phone_number" style="width: 100px;" maxLength="12" required>
 <br>
-Enter delay in seconds :<br><input type="text" name="delay" style="width: 100px;">
+Enter delay in seconds :<br><input type="number" name="delay" style="width: 100px;" required>
 <input id ="call" type="submit" value="Call" />
 
 </form>
