@@ -5,7 +5,9 @@
 Phase III impelments the phonebuzz implementation using twilio twiml  as per instruction <br>
 This phase is dependent on the phase I and II.Twiml generator implemented in the phase I will be used in this phase.
 In adddition to phase I and II this phase consist of a web application which will have an interface to input the twilio resgistered phone number and amount of delay in seconds after which you want to call the provided number to play phoneuzz.Using twilio apis it will  will make outbound call to the number specified after specified delay.
-Further user will be prompted to play phonebuzz similar to phase I
+Further user will be prompted to play phonebuzz similar to phase I<br><br>
+Generic error handler is written so that error does not expose sensitve data such as class name in stacktrace.<br>
+Input validation is done to handle valid input from the user.
 
 
 <b>Steps to Deploy</b><br>
